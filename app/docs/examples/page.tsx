@@ -1,10 +1,14 @@
 export default function ExamplesPage() {
   return (
-    <div className="container max-w-4xl py-6 lg:py-10">
+    <div className="container max-w-4xl py-6 lg:py-10 mx-auto">
       <div className="flex flex-col items-start gap-4 md:flex-row md:justify-between md:gap-8">
         <div className="flex-1 space-y-4">
-          <h1 className="inline-block font-heading text-4xl tracking-tight lg:text-5xl">Examples</h1>
-          <p className="text-xl text-muted-foreground">Code examples showing how to use the country_list package.</p>
+          <h1 className="inline-block font-heading text-4xl tracking-tight lg:text-5xl">
+            Examples
+          </h1>
+          <p className="text-xl text-muted-foreground">
+            Code examples showing how to use the country_list package.
+          </p>
         </div>
       </div>
       <div className="grid gap-10 pb-20 pt-10">
@@ -55,7 +59,9 @@ Future<void> _selectCountry() async {
           <h2 className="font-heading mt-12 scroll-m-20 border-b pb-2 text-2xl font-semibold tracking-tight first:mt-0">
             Custom Item Builder
           </h2>
-          <p className="leading-7 [&:not(:first-child)]:mt-6">Customize the appearance of each country item:</p>
+          <p className="leading-7 [&:not(:first-child)]:mt-6">
+            Customize the appearance of each country item:
+          </p>
           <pre className="my-4 overflow-auto rounded-lg border bg-muted p-4">
             <code>{`CountryListView(
   onSelect: (country) {
@@ -111,7 +117,9 @@ Future<void> _selectCountry() async {
           <h2 className="font-heading mt-12 scroll-m-20 border-b pb-2 text-2xl font-semibold tracking-tight first:mt-0">
             Sorting Countries
           </h2>
-          <p className="leading-7 [&:not(:first-child)]:mt-6">Sort countries by code instead of name:</p>
+          <p className="leading-7 [&:not(:first-child)]:mt-6">
+            Sort countries by code instead of name:
+          </p>
           <pre className="my-4 overflow-auto rounded-lg border bg-muted p-4">
             <code>{`CountryListView(
   onSelect: (country) {
@@ -125,7 +133,9 @@ Future<void> _selectCountry() async {
           <h2 className="font-heading mt-12 scroll-m-20 border-b pb-2 text-2xl font-semibold tracking-tight first:mt-0">
             High-Quality Flags
           </h2>
-          <p className="leading-7 [&:not(:first-child)]:mt-6">Use high-quality flag images:</p>
+          <p className="leading-7 [&:not(:first-child)]:mt-6">
+            Use high-quality flag images:
+          </p>
           <pre className="my-4 overflow-auto rounded-lg border bg-muted p-4">
             <code>{`CountryListView(
   onSelect: (country) {
@@ -139,7 +149,9 @@ Future<void> _selectCountry() async {
           <h2 className="font-heading mt-12 scroll-m-20 border-b pb-2 text-2xl font-semibold tracking-tight first:mt-0">
             Country Picker Dialog
           </h2>
-          <p className="leading-7 [&:not(:first-child)]:mt-6">Show a country picker in a dialog:</p>
+          <p className="leading-7 [&:not(:first-child)]:mt-6">
+            Show a country picker in a dialog:
+          </p>
           <pre className="my-4 overflow-auto rounded-lg border bg-muted p-4">
             <code>{`Future<Country?> showCountryPickerDialog(BuildContext context) {
   return showDialog<Country>(
@@ -293,5 +305,5 @@ class _CountrySearchPageState extends State<CountrySearchPage> {
         </div>
       </div>
     </div>
-  )
+  );
 }
