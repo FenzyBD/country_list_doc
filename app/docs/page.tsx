@@ -29,9 +29,9 @@ export default function DocsPage() {
             <code>{`dependencies:
   flutter:
     sdk: flutter
-    country_list:
-      git:
-        url: https://github.com/khsuzan/country_list.git`}</code>
+  country_list:
+    git:
+      url: https://github.com/khsuzan/country_list.git`}</code>
           </pre>
           <p className="leading-7 [&:not(:first-child)]:mt-6">
             Run flutter pub get to install the package.
