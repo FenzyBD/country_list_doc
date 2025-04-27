@@ -153,7 +153,9 @@ export default function Home() {
 dependencies:
   flutter:
     sdk: flutter
-  country_list: ^1.0.0
+  country_list:
+    git:
+      url: https://github.com/khsuzan/country_list.git
   `}
                 </code>
               </pre>
