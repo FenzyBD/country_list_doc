@@ -153,7 +153,7 @@ export default function Home() {
 dependencies:
   flutter:
     sdk: flutter
-  country_names: ^1.1.0
+  country_names: ^1.1.2
   `}
                 </code>
               </pre>
