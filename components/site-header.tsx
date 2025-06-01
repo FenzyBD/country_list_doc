@@ -11,7 +11,7 @@ export function SiteHeader() {
         <div className="mr-4 hidden md:flex">
           <Link href="/" className="mr-6 flex items-center space-x-2">
             <Package className="h-6 w-6" />
-            <span className="hidden font-bold sm:inline-block">country_list</span>
+            <span className="hidden font-bold sm:inline-block">country_names</span>
           </Link>
           <nav className="flex items-center space-x-6 text-sm font-medium">
             <Link href="/docs" className="transition-colors hover:text-foreground/80">
@@ -39,7 +39,7 @@ export function SiteHeader() {
             </Button>
           </div>
           <nav className="flex items-center">
-            <Link href="https://github.com/yourusername/country_list" target="_blank" rel="noreferrer">
+            <Link href="https://github.com/yourusername/country_names" target="_blank" rel="noreferrer">
               <div className="inline-flex h-9 w-9 items-center justify-center rounded-md bg-background p-2 text-sm font-medium transition-colors hover:bg-accent hover:text-accent-foreground focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50">
                 <svg viewBox="0 0 438.549 438.549" className="h-4 w-4">
                   <path

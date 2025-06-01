@@ -7,7 +7,7 @@ export default function ApiPage() {
             API Reference
           </h1>
           <p className="text-xl text-muted-foreground">
-            Detailed documentation of the country_list package API.
+            Detailed documentation of the country_names package API.
           </p>
         </div>
       </div>

@@ -12,7 +12,7 @@ export default function DocsPage() {
             Documentation
           </h1>
           <p className="text-xl text-muted-foreground">
-            Learn how to use the country_list package in your Flutter
+            Learn how to use the country_names package in your Flutter
             applications.
           </p>
         </div>
@@ -29,9 +29,7 @@ export default function DocsPage() {
             <code>{`dependencies:
   flutter:
     sdk: flutter
-  country_list:
-    git:
-      url: https://github.com/khsuzan/country_list.git`}</code>
+  country_names: ^1.1.0`}</code>
           </pre>
           <p className="leading-7 [&:not(:first-child)]:mt-6">
             Run flutter pub get to install the package.
@@ -46,7 +44,7 @@ export default function DocsPage() {
           </p>
           <pre className="my-4 overflow-auto rounded-lg border bg-muted p-4">
             <code>{`import 'package:flutter/material.dart';
-import 'package:country_list/country_list.dart';
+import 'package:country_names/country_names.dart';
 
 class CountrySelector extends StatelessWidget {
   @override

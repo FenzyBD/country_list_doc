@@ -18,7 +18,7 @@ export default function Home() {
           <div className="mr-4 flex">
             <Link href="/" className="mr-6 flex items-center space-x-2">
               <Package className="h-6 w-6" />
-              <span className="font-bold">country_list</span>
+              <span className="font-bold">country_names</span>
             </Link>
           </div>
           <nav className="flex items-center space-x-6 text-sm font-medium flex-1">
@@ -42,7 +42,7 @@ export default function Home() {
             </Link>
             <div className="flex-1" />
             <Link
-              href="https://github.com/khsuzan/country_list"
+              href="https://github.com/khsuzan/country_names"
               target="_blank"
               rel="noreferrer"
               className="transition-colors hover:text-foreground/80"
@@ -57,7 +57,7 @@ export default function Home() {
         <section className="space-y-6 pb-8 pt-6 md:pb-12 md:pt-10 lg:py-32">
           <div className="container flex max-w-[64rem] flex-col items-center gap-4 text-center">
             <h1 className="font-heading text-3xl sm:text-5xl md:text-6xl lg:text-7xl">
-              country_list
+              country_names
             </h1>
             <p className="max-w-[42rem] leading-normal text-muted-foreground sm:text-xl sm:leading-8">
               A customizable Flutter widget for displaying a list of countries
@@ -72,7 +72,7 @@ export default function Home() {
               </Button>
               <Button variant="outline" asChild>
                 <Link
-                  href="https://github.com/khsuzan/country_list"
+                  href="https://github.com/khsuzan/country_names"
                   target="_blank"
                   rel="noreferrer"
                 >
@@ -137,7 +137,7 @@ export default function Home() {
               Get Started
             </h2>
             <p className="max-w-[85%] leading-normal text-muted-foreground sm:text-lg sm:leading-7">
-              Add country_list to your pubspec.yaml file and start using it in
+              Add country_names to your pubspec.yaml file and start using it in
               your Flutter app
             </p>
             <div className="w-full max-w-[48rem] overflow-hidden rounded-lg border bg-background shadow">
@@ -153,9 +153,7 @@ export default function Home() {
 dependencies:
   flutter:
     sdk: flutter
-  country_list:
-    git:
-      url: https://github.com/khsuzan/country_list.git
+  country_names: ^1.1.0
   `}
                 </code>
               </pre>

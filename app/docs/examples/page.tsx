@@ -7,7 +7,7 @@ export default function ExamplesPage() {
             Examples
           </h1>
           <p className="text-xl text-muted-foreground">
-            Code examples showing how to use the country_list package.
+            Code examples showing how to use the country_names package.
           </p>
         </div>
       </div>
@@ -21,7 +21,7 @@ export default function ExamplesPage() {
           </p>
           <pre className="my-4 overflow-auto rounded-lg border bg-muted p-4">
             <code>{`import 'package:flutter/material.dart';
-import 'package:country_list/country_list.dart';
+import 'package:country_names/country_names.dart';
 
 class CountryPickerPage extends StatelessWidget {
   @override
@@ -283,7 +283,7 @@ class _CountrySearchPageState extends State<CountrySearchPage> {
                   leading: Image(
                     image: AssetImage(
                       "assets/_80/\${country.code.toLowerCase()}.png",
-                      package: "country_list"
+                      package: "country_names"
                     ),
                     width: 32,
                   ),
